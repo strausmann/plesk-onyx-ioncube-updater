@@ -6,7 +6,7 @@ Updating the IonCube Loader for all Multi PHP Versions on Plesk Onyx Managed Sys
 ```console
 git clone https://github.com/strausmann/plesk-onyx-ioncube-updater.git
 cd plesk-onyx-ioncube-updater
-chmod +x .
+chmod +x *
 ```
 
 ## Update
@@ -21,7 +21,7 @@ cd plesk-onyx-ioncube-updater
 ./cloudlinux_update_ioncube.sh
 ```
 
-## Execute CloudLinux
+## Execute Debian
 ```console
 cd plesk-onyx-ioncube-updater
 ./debian_update_ioncube.sh
