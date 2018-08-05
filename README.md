@@ -1,5 +1,3 @@
-# Zur Installation von IonCube auf einem Plesk Onyx verwalteten Server 
-
 # plesk-onyx-ioncube-updater
 
 Updating the IonCube Loader for all Multi PHP Versions on Plesk Onyx Managed Systems
