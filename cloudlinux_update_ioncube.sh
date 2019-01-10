@@ -65,6 +65,13 @@ then
     sudo cp /usr/local/ioncube/ioncube_loader_lin_7.2.so /opt/alt/php72/usr/lib64/php/ioncube/
 fi
 
+### PHP 7.3
+if [ -d "/opt/alt/php73/" ] 
+then
+    echo "Installation des ionCube Loader für PHP 7.3"
+    sudo cp /usr/local/ioncube/ioncube_loader_lin_7.3.so /opt/alt/php73/usr/lib64/php/ioncube/
+fi
+
 echo "Restart Apache & NGINX Webserver"
 systemctl restart httpd.service
 
